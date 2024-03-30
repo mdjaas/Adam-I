@@ -3,17 +3,18 @@ import styles from './ImportExport.module.css';
 
 function ImportExport() {
   return (
-    <div className={styles.content}>
-      <div className={styles.desc}>
-        <h3> Imports and Exports</h3>
-        <h2 className={styles.heading}> Nigeria&aposs Robust Trade Growth</h2>
+    <div className={styles.wrapper}>
+      <div className={styles.content}>
+        <h2> Imports and Exports</h2>
         <br />
-        <p>
-          In 2021, Nigeria&aposs intra-African trade surged by 21.7% to US$9.65 billion, elevating
+        <h5 className={styles.heading}> Nigeria&apos;s Robust Trade Growth</h5>
+        <br />
+        <div className={styles.desc}>
+          In 2021, Nigeria&apos;s intra-African trade surged by 21.7% to US$9.65 billion, elevating
           its its its status as the 3rd largest intra-African trading nation. Despite crude oil
-          dominating exports to African partners, only 3.3% of Nigeria&aposs total imports came from
-          the continent.
-        </p>
+          dominating exports to African partners, only 3.3% of Nigeria&apos;s total imports came
+          from the continent.
+        </div>
         <br />
         <button type="submit" className={styles.learnMore}>
           LEARN MORE
