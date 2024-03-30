@@ -6,18 +6,20 @@ import SectionThree from './SectionThree/SectionThree';
 import SectionFour from './SectionFour/SectionFour';
 
 import styles from './Nigeria.module.css';
+import TradeCommitment from '../../components/Countries/TradeCommitment/TradeCommitment';
 
 function Nigeria() {
   return (
-
     <div className={styles.card_wrapper} id="nigeria" role="main">
-            <h1>Nigeria</h1>
+      <h1>Nigeria</h1>
       <InvestmentSupport />
       <br />
       <ImportExport />
       <br />
       <ImportSubstituition />
       <br />
+      <TradeCommitment />
+      <br/>
       <SectionThree />
       <SectionFour />
     </div>

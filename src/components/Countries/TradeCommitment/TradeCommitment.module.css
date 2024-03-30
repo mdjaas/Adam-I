@@ -1,0 +1,23 @@
+.wrapper{
+    background-image: url('../../../assets/regional_trade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 5%;
+}
+
+.content{
+    width: 80%;
+}
+
+a{
+    color: #0000EE;
+}
+
+
+.heading{
+    color: rgb(255,204,0);
+}

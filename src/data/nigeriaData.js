@@ -1,5 +1,6 @@
 import Agriculture from '../assets/images/Nigeria/SectionTwo/industries_agriculture.webp';
 import Manufacturing from '../assets/images/Nigeria/SectionTwo/industries_manufacturing.webp';
+
 const data = [
   {
     id: 1,
