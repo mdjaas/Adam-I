@@ -6,7 +6,7 @@ function TradeCommitment() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
-        <h3>Nigeria&apos;s Commitment to Regional Trade</h3>
+        <h2>Nigeria&apos;s Commitment to Regional Trade</h2>
         <br />
         <section>
           <div>
